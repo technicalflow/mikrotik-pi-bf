@@ -73,14 +73,6 @@ dtoverlay=dwc2
 gpu_mem=16
 EOFnewconfig
 
-### Mikrotik configuration
-# Only after lte1 device appear in /interfaces/print
-#  I have set 192.168.51.1/24 for LTE1 interface (Pi has 192.168.51.10) 
-# /ip address add address=192.168.51.1/24 interface=lte1 network=192.168.51.0
-
-## Set NAT on Mikrotik - not required
-## /ip firewall nat add action=masquerade chain=srcnat comment="defconf: masquerade" out-interface=ether1
-
 ##Blacklist
 # blacklist snd_pcm
 # blacklist snd_bcm2835
