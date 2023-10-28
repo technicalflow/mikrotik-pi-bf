@@ -4,6 +4,7 @@ I made sample script to connect Pi Zero using USB interface as network to Mikrot
 
 Tutorial is based on Rasbian OS Lite - Debian 12 - 10.10.2023
 
+<u>Remember to connect USB cable into 'middle' USB port in Pi Zero</u>
 
 ### Mikrotik configuration
 Only after lte1 device appear in /interfaces/print <br>
